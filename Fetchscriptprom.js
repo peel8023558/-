@@ -8,7 +8,7 @@ async function getContents() {
     const ValuableData = data.filter(m => m.rating >= 9.0);
 
     console.log(ValuableData);
-}
+};
 
 const cartItems = [
   { id: "ITEM_01", name: "게이밍 마우스", price: 50000, stock: { count: 15, location: "A1" } },
